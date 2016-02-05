@@ -72,13 +72,13 @@ nav {
 ul {
   display: flex;
   align-self: center;
+  flex-flow: wrap;
   color: #262626;
   font-family: 'Catamaran', sans-serif;
 	font-size: 1.75em;
   background-color: none;
 }
 ul li {
-  display: flex;
   list-style: none;
   background-color: none;
   margin: 0px 0px 10px 0px;
@@ -100,7 +100,7 @@ header {
 }
 /*Intro Header content*/
 .intro {
-margin: 75px 0 50px 0;
+  margin: 50px 0 50px 0;
 }
 .name {
   font-family: 'Kaushan Script', cursive;
@@ -113,17 +113,14 @@ margin: 75px 0 50px 0;
   font-size: 2.5em;
   color: #262626;
 }
-.headshot {
-display: flex;
-justify-content: flex-start;
-font-family: 'Romanesco', cursive;
-font-size: 2.5em;
+.hs-circle {
+  border-radius: 50%;
+  display: flex;
+  justify-content: flex-start;
 }
 .bio {
 display: flex;
-justify-content: flex-start;
-font-family: 'Nobile', sans-serif;
-font: 3.5em;;
+justify-content: flex-end;
 }
 .contact-info {
   display: flex;
