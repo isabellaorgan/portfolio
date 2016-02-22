@@ -26,18 +26,14 @@ a:visited {
 .fa-stack .fa-lg {
   margin-top: 30px;
 }
-.fa fa-desktop {
-  color: #34A9B6;
-}
-.fa fa-terminal {
-  color: #34A9B6;
-}
-.fa fa-database {
-  color: #34A9B6;;
-}
 .icon-gh:hover,
 .icon-gh:focus,
 .icon-gh:active {
+  color: #ccc;
+}
+.icon-heroku:hover,
+.icon-heroku:focus,
+.icon-heroku:active {
   color: #ccc;
 }
 .icon-insta:hover,
@@ -67,15 +63,46 @@ a:visited {
 }
 
 /*Primary Style Elements*/
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+  width: 100%;
+  height: 100px;
+  background-color: inherit;
+  padding: 0 10px 20px 10px;
+  margin: auto;
+}
+ul {
+  display: flex;
+  align-self: center;
+  flex-flow: wrap;
+  color: #262626;
+  font-family: 'Catamaran', sans-serif;
+	font-size: 1.75em;
+  background-color: inherit;
+  margin: auto;
+}
+ul li {
+  display: flex;
+  align-self: center;
+  list-style: none;
+  background-color: inherit;
+  margin: auto;
+  padding: 0 10px 0 10px;
+}
 header {
   justify-content: center;
   align-content: center;
   margin: auto;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2.5em;
+  color: #262626;
+  letter-spacing: 2px;
 }
 section {
-text-align: left;
-margin: auto;
-padding: 0 0 20px 0;
+  text-align: left;
+  padding: 0 0 20px 0;
 }
 h2 {
 	text-align: left;
@@ -85,13 +112,10 @@ h2 {
 p {
 	height: 75%;
 	width: 75%;
-	margin: auto;;
-	padding-left: 20px;
 	text-align: left;
 }
 ul {
   display: flex;
-  /*align-self: center;*/
   flex-flow: wrap;
   text-align: left;
   color: #262626;

@@ -1,13 +1,13 @@
 body {
   width: 90%;
-	margin: auto;
+  margin: auto;
   /*background: url(../img/nyc-pana-2.jpg);
   background-repeat: no-repeat;
-	background-color: #262626;*/
-	color: #A7A37E;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 16px;
-	line-height: 1.5;
+  background-color: #262626;*/
+  color: #A7A37E;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 a:link {
@@ -38,6 +38,11 @@ a:visited {
 .icon-gh:hover,
 .icon-gh:focus,
 .icon-gh:active {
+  color: #ccc;
+}
+.icon-heroku:hover,
+.icon-heroku:focus,
+.icon-heroku:active {
   color: #ccc;
 }
 .icon-insta:hover,
@@ -96,21 +101,23 @@ ul li {
   padding: 0 10px 0 10px;
 }
 section {
-text-align: center;
-margin: auto;
+  text-align: center;
 }
 p {
-	height: 75%;
-	width: 75%;
-	margin: auto;;
-	padding-left: 20px;
-	text-align: left;
+  height: 75%;
+  width: 75%;
+  margin: auto;
+  padding-left: 20px;
+  text-align: left;
 }
 span {
   display: flex;
   align-self: center;
   text-align: left;
   margin: auto;
+}
+div {
+  text-align: center;
 }
 header {
   justify-content: center;
@@ -155,7 +162,7 @@ footer {
   height: auto;
   /*background: #262626;*/
 }
-.hs-circle {
+.img-circle {
   border-radius: 50%;
   display: flex;
   justify-content: flex-start;
@@ -174,7 +181,7 @@ footer {
   display: flex;
   justify-content: center;
   align-content: center;
-  padding: 0 0 20px 0;
+  padding: 20px 0 20px 0;
   margin: auto;
   font-size: 1.25em;
 }
@@ -183,7 +190,7 @@ footer {
   justify-content: center;
   align-content: center;
   background-color: inherit;
-  padding: 0 10px 20px 10px;
+  padding: 20px 10px 20px 10px;
   margin: auto;
 }
 
