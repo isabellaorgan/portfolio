@@ -142,6 +142,7 @@ footer {
   color: #262626;
   margin: auto;
 }
+/*Main content*/
 .about {
   display: flex;
   flex-flow: wrap;
@@ -177,7 +178,6 @@ footer {
   margin: auto;
   font-size: 1.25em;
 }
-
 .contact-info {
   display: flex;
   justify-content: center;
@@ -187,13 +187,13 @@ footer {
   margin: auto;
 }
 
+/*Additional Elements*/
 blockquote {
 	padding-left: 1em;
 	border-left: 3px solid #ccc;
 	font-size:  1.5em;
 	color: #34A9B6;
 }
-
 h1 {
 	text-align: left;
 	letter-spacing: 5px;
