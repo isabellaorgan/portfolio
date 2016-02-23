@@ -8,95 +8,134 @@
 	<title>Resume - Isabella Organ</title>
   <!-- My CSS -->
   <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/resume.css">
   <!-- Google Fonts || Font Awesome -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web|Catamaran|Nobile|Archivo+Narrow|Kalam|Romanesco|Kaushan+Script|Condiment">
   <link rel="stylesheet" href="css/fonts.css">
   </head>
 
 <body>
-
-  	<div itemscope itemtype="http://schema.org/Person">
-  	<span itemprop="name">Isabella Organ</span>
-    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-      <span itemprop="addressLocality">Seattle</span>
-      <span itemprop="addressRegion">WA</span>
+  <nav class="nav-bar">
+    <div class="nav-list">
+      <ul>
+        <li><a href="index.html" class="scroll-down">HOME</a></li>
+        <li><a href="projects.html" class="scroll-down">PROJECTS</a></li>
+      </ul>
     </div>
-    <span itemprop="telephone">(206) 214-6072</span><br>
-    <a href="mailto:isabellaorgan@gmail.com">isabellaorgan@gmail.com</a> <br>
-    <a href="https://github.com/isabellaorgan" class="icon-github"> Github</a>
-    <a href="https://www.linkedin.com/in/isabellaorgan" class="icon-linkedin"> LinkedIn</a>
-    <a href="https://twitter.com/IsabellaOrgan" class="icon-twitter3"> Twitter</a>
+  </nav>
+  	<div itemscope itemtype="http://schema.org/Person">
+  	<span itemprop="name">Isabella Organ</span></div>
+    <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+      <div itemprop="addressLocality">Seattle, </div>
+      <div itemprop="addressRegion">WA</div><br />
+      <div itemprop="telephone">(206) 214-6072</div><br></span>
+      <span>
+        <a href="mailto:isabellaorgan@gmail.com">isabellaorgan@gmail.com</a>
+      </span>
+        <span>
+          <p>
+            <a href="https://github.com/isabellaorgan" class="icon-github"> Github </a>
+            <a href="https://www.linkedin.com/in/isabellaorgan" class="icon-linkedin"> LinkedIn </a>
+            <a href="https://twitter.com/IsabellaOrgan" class="icon-twitter3"> Twitter</a>
+          </p>
+        </span>
+    </span>
 
 <main>
-
-  <section>
-    <h1>Professional Profile</h1>
-    <content><span itemprop="jobTitle">Web Developer and former small business owner.</span><br>
-      Full-Stack Software Developer with a strong focus on the Front End.<br></content>
+  <section itemprop="jobTitle">
+    <p>
+      <header>Professional Profile</header>
+      Web Developer and former small business owner.
+      Full-Stack Software Developer with a strong focus on the Front End.
+    </p>
   </section>
 
  <section>
-    <h1>Technical Skills</h1>
-      <content>Proficient: HTML, CSS, Repsonsive Web Design, JavaScript, Object-Oriented Programming, Git, GitHub, Sublime, Photoshop<br>
-      Growing: Node/Express.js, MongoDB, test-driven development, jQuery, Ajax, JSON, API Design, Angular.js<br></content>
+   <p>
+     <header>Technical Skills</header>
+      Proficient: HTML, CSS, Repsonsive Web Design, JavaScript, Object-Oriented Programming, Git, GitHub, Sublime, Photoshop<br>
+      Growing: Node/Express.js, MongoDB, test-driven development, jQuery, Ajax, JSON, API Design, Angular.js<br>
+   </p>
   </section>
 
    <section>
-    <h1>Projects</h1>
-      <content>Donut Shop (2015)<br>
-      https://github.com/isabellaorgan/donut_shop
-      <ul>
-        <li>Models a donut shop with updatable locations and customer sales data.<br>
-          Built with HTML, CSS, JavScript</li>
-        <li>This was primarily a solo project with some pair programming completed over the course of one week.</li>
-      </ul>
-      <br>
-      Hour Long Lunch (2015)<br>
-      https://github.com/bentongreen/hour-long-lunch
-      <ul>
-        <li>Responsive web application showing the location of neighborhood food trucks on an interactive map, with a focus on showing the user travel and wait times for the purpose of getting back to work within an allotted time. A collaborative project completed in four days using an Agile workflow and Trello, Google Maps, jQuery and JSON parsing.<br></li>
-        <li>Project originator and manager. Contributed to UI design (HTML, CSS, Responsiveness), Google Maps, JavaScript.</li>
-      </ul>
-      <br>
-      Colo(u)rBlindr (2015)<br>
-      https://github.com/isabellaorgan/colourBlindr
-      <ul>
-        <li>Responsive web application that allows a colorblind user to filter a photo based on their profile color blindness type to show color sighted people how they see the world. Collaborative project completed in approximately 60 hours, using Agile workflow and Trello, Node/Express.js, MongoDB and TDD.<br></li>
-        <li>Contributed to UI design (HTML, CSS, Responsiveness), Node/Express, and MongoDB.</li>
-      </ul>
-      <br>
-    </content>
+      <p>
+        <header>Projects</header>
+        <div class="pro-titles">
+          <a href="http://dirge.net/donut_shop/">Donut Shop (2015)</a>
+          <a href="https://github.com/isabellaorgan/donut_shop" class="icon-github"></a>
+        </div>
+        Models a donut shop with updatable locations and customer sales data.<br>
+        Built with HTML, CSS, JavScriptThis was primarily a solo project with some pair programming completed over the course of one week.
+      </p>
+      <p>
+        <div class="pro-titles">
+          <a href="http://hour-long-lunch.herokuapp.com/">Hour Long Lunch (2015)</a>
+          <a href="https://github.com/bentongreen/hour-long-lunch" class="icon-github"></a>
+        </div>
+        Responsive web application showing the location of neighborhood food trucks on an interactive map, with a focus on showing the user travel and wait times for the purpose of getting back to work within an allotted time. A collaborative project completed in four days using an Agile workflow and Trello, Google Maps, jQuery and JSON parsing.<br>Project originator and manager. Contributed to UI design (HTML, CSS, Responsiveness), Google Maps, JavaScript.
+      </p>
+      <p>
+        <div class="pro-titles">
+          <a href="https://colourblindr.herokuapp.com/">Colo(u)rBlindr (2015)</a>
+          <a href="https://github.com/isabellaorgan/colourBlindr" class="icon-github"></a>
+        </div>
+        Responsive web application that allows a colorblind user to filter a photo based on their profile color blindness type to show color sighted people how they see the world. Collaborative project completed in approximately 60 hours, using Agile workflow and Trello, Node/Express.js, MongoDB and TDD.<br>Contributed to UI design (HTML, CSS, Responsiveness), Node/Express, and MongoDB.
+      </p>
   </section>
 
    <section>
-    <h1>Experience</h1>
+    <header>Experience</header>
     <content>
       <strong>Teaching Assistant</strong><br>
       <strong>CODE FELLOWS | Seattle, WA | <meta itemprop="startDate" content="2015">2015</strong><br>
-    Help students develop the foundations of computer science and web development.<br>
-    Grading - encourage students and provide feedback.<br>
-    Understand the instruction plan of the day, and how it fits into the plan for the week.<br>
-    Answer student questions, debug errors and enable problem solving.<br><br>
+    <p>
+      Help students develop the foundations of computer science and web development.
+      Grading - encourage students and provide feedback.
+      Understand the instruction plan of the day, and how it fits into the plan for the week.
+      Answer student questions, debug errors and enable problem solving.
+    </p>
 
     <strong>Freelance web designer/developer</strong><br>
     <strong>VARIOUS CLIENTS</strong> | Seattle, WA | <meta itemprop="startDate" content="2000">(2000-<meta itemprop="endDate" content="2015">2015)<br>
-    Design and develop web presence, create user-friendly website, using HTML, CSS and Wordpress.<br>
-    Manage content, design graphic images, provide blog and social media support.<br><br>
+    <p>
+      Design and develop web presence, create user-friendly website, using HTML, CSS and Wordpress.
+      Manage content, design graphic images, provide blog and social media support.
+    </p>
 
     <strong>Web Development Assistant</strong><br>
     <strong>OUTDOORMIND.NET/ADVENTURESPORTS ONLINE</strong> | Woodland, CA | <meta itemprop="startDate" content="2000">(2000-<meta itemprop="endDate" content="2001">2001)<br>
-    Designed/developed websites for adventure sporting agencies, using HTML and CSS, Dreamweaver, Adobe Photoshop, ImageReady and Illustrater<br>
-    Integrated/managed content and designed graphics as required.<br>
-    Updated/maintained client websites and databases.<br></content>
+    <p>
+      Designed/developed websites for adventure sporting agencies, using HTML and CSS, Dreamweaver, Adobe Photoshop, ImageReady and Illustrater
+      Integrated/managed content and designed graphics as required.
+      Updated/maintained client websites and databases.
+    </p>
+  </content>
   </section>
 
   <section>
-    <h1>Education</h1>
+    <header>Education</header>
     <content>
     <strong>CODE FELLOWS | Seattle, WA | <meta itemprop="startDate" content="2015">2015</strong><br>
-    Certificate in Full-Stack JavaScript<br><br><br></content>
+    <p>
+      Certificate in Full-Stack JavaScript
+    </p>
+  </content>
   </section>
+
+  <section class="contact-info"><a id="contact"></a>
+  <ul class="contact-info">
+  <li><a class="icon-mail" href="mailto:isabellaorgan@gmail.com"><i class="fa fa-envelope"></i></a></li>
+  <li><a class="icon-gh" href="https://github.com/isabellaorgan" class="icon-github"><i class="fa fa-github"></i></a></li>
+  <li><a class="icon-linked" href="https://www.linkedin.com/in/isabellaorgan" class="icon-linkedin"><i class="fa fa-linkedin"></i></a></li>
+  <li><a class="icon-twitter" href="https://twitter.com/IsabellaOrgan" class="icon-twitter"><i class="fa fa-twitter"></i></a></li>
+  <li><a class="icon-insta" href="https://www.instagram.com/littlewords/" class="icon-insta"><i class="fa fa-instagram"></i></a></li>
+  <li><a class="icon-blog" href="http://www.dirge.net" class="icon-insta"><i class="fa fa-rss"></i></a></li>
+  </ul>
+</section>
+
+<footer>&copy; 2016 Isabella Organ</footer>
 
 </main>
 
