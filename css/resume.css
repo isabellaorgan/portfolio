@@ -1,6 +1,7 @@
 body {
   width: 90%;
   margin: auto;
+  text-align: left;
   /*background: url(../img/nyc-pana-2.jpg);
   background-repeat: no-repeat;
   background-color: #262626;*/
@@ -101,27 +102,22 @@ ul li {
   padding: 0 10px 0 10px;
 }
 section {
-  text-align: center;
+  text-align: left;
+}
+header {
+	text-align: left;
+  font-size: 1.5em;
+  color: #262626;
 }
 p {
   height: 75%;
   width: 75%;
-  margin: auto;
-  padding-left: 20px;
   text-align: left;
 }
 span {
   display: flex;
-  align-self: center;
+  align-content: left;
   text-align: left;
-  margin: auto;
-}
-div {
-  text-align: center;
-}
-header {
-  justify-content: center;
-  align-content: center;
   margin: auto;
 }
 footer {
@@ -129,15 +125,14 @@ footer {
   margin: auto;
 }
 /*Intro Header content*/
-.intro {
+.icons {
+  display: flex;
+  align-content: stretch;;
   margin: auto;
 }
-.name {
-  display: flex;
-  align-self: center;
+.pro-titles {
   font-family: 'Kaushan Script', cursive;
-  font-size: 2.5em;
-  color: #262626;
+  font-size: 1.5em;
   letter-spacing: 2px;
   margin: auto;
 }
@@ -205,11 +200,6 @@ h1 {
 	text-align: left;
 	letter-spacing: 5px;
   font-size: 2.5em;
-  color: #000000;
-}
-h2 {
-	text-align: left;
-  font-size: 1.75em;
   color: #000000;
 }
 h3 {
