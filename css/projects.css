@@ -70,7 +70,7 @@ nav {
   width: 100%;
   height: 100px;
   background-color: inherit;
-  padding: 0 10px 10px 10px;
+  padding: 0 10px 20px 10px;
   margin: auto;
 }
 ul {
@@ -79,7 +79,6 @@ ul {
   flex-flow: wrap;
   color: #262626;
   font-family: 'Catamaran', sans-serif;
-	font-size: 1.75em;
   background-color: inherit;
   margin: auto;
 }
@@ -92,6 +91,9 @@ ul li {
   margin: auto;
   padding: 0 10px 0 10px;
 }
+section {
+  text-align: center;
+}
 header {
   justify-content: center;
   align-content: center;
@@ -100,10 +102,6 @@ header {
   font-size: 2.5em;
   color: #262626;
   letter-spacing: 2px;
-}
-section {
-  text-align: left;
-  padding: 0 0 20px 0;
 }
 h2 {
 	text-align: left;
@@ -115,29 +113,16 @@ p {
 	width: 75%;
 	text-align: left;
 }
-ul {
-  display: flex;
-  flex-flow: wrap;
-  text-align: left;
-  color: #262626;
-  font-family: 'Catamaran', sans-serif;
-	font-size: 1em;
-  background-color: inherit;
-  margin: auto;
-}
-ul li {
-  display: flex;
-  /*align-self: center;*/
-  text-align: left;
-  list-style: none;
-  background-color: inherit;
-  margin: auto;
-  padding: 0 10px 0 10px;
-}
 footer {
   text-align: center;
   margin: auto;
   padding: 0 0 0 10px;
+}
+
+/*Project content*/
+.project {
+  text-align: left;
+  padding: 0 0 20px 0;
 }
 
 /*Contact content*/

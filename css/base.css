@@ -40,11 +40,6 @@ a:visited {
 .icon-gh:active {
   color: #ccc;
 }
-.icon-heroku:hover,
-.icon-heroku:focus,
-.icon-heroku:active {
-  color: #ccc;
-}
 .icon-insta:hover,
 .icon-insta:focus,
 .icon-insta:active {
@@ -78,7 +73,7 @@ nav {
   align-content: flex-end;
   width: 100%;
   height: 100px;
-  background-color: none;
+  background-color: inherit;
   padding: 0 10px 20px 10px;
   margin: auto;
 }
@@ -192,26 +187,4 @@ footer {
   background-color: inherit;
   padding: 20px 10px 10px 10px;
   margin: auto;
-}
-
-/*Additional Elements*/
-blockquote {
-	padding-left: 1em;
-	border-left: 3px solid #ccc;
-	font-size:  1.5em;
-	color: #34A9B6;
-}
-h1 {
-	text-align: left;
-	letter-spacing: 5px;
-  font-size: 2.5em;
-  color: #000000;
-}
-h2 {
-	text-align: left;
-  font-size: 1.75em;
-  color: #000000;
-}
-h3 {
-	font-weight: bold;
 }
