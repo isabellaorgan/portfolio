@@ -98,18 +98,16 @@ ul li {
 section {
   text-align: center;
 }
-p {
-  height: 75%;
-  width: 75%;
-  margin: auto;
-  padding-left: 20px;
-  text-align: left;
-}
 span {
   display: flex;
   align-self: center;
   text-align: left;
   margin: auto;
+}
+p {
+	height: 75%;
+	width: 75%;
+	text-align: left;
 }
 div {
   text-align: center;
@@ -118,18 +116,38 @@ header {
   justify-content: center;
   align-content: center;
   margin: auto;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2.5em;
+  color: #262626;
+  letter-spacing: 2px;
+}
+h2 {
+	text-align: left;
+  font-size: 1.75em;
+  color: #000000;
 }
 footer {
   text-align: center;
   margin: auto;
+  padding: 0 0 0 10px;
 }
+
 /*Intro Header content*/
+.content {
+  height: 75%;
+  width: 75%;
+  margin: auto;
+  padding-left: 20px;
+  text-align: left;
+}
 .intro {
   margin: auto;
 }
 .name {
   display: flex;
   align-self: center;
+  justify-content: center;
+  align-content: center;
   font-family: 'Kaushan Script', cursive;
   font-size: 2.5em;
   color: #262626;
@@ -139,6 +157,8 @@ footer {
 .title {
   display: flex;
   align-self: center;
+  justify-content: center;
+  align-content: center;
   font-family: 'Archivo Narrow', sans-serif;
   font-size: 2.5em;
   color: #262626;
@@ -180,6 +200,21 @@ footer {
   margin: auto;
   font-size: 1.25em;
 }
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: inherit;
+  padding: 20px 10px 10px 10px;
+  margin: auto;
+}
+/*Project content*/
+.project {
+  text-align: left;
+  padding: 0 0 20px 0;
+}
+
+/*Contact content*/
 .contact-info {
   display: flex;
   justify-content: center;
